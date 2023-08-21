@@ -113,12 +113,13 @@ a , .sub {
 
 .actionbox {
     display: flex;
-    margin: 50px 80px;
+    margin: 70px 80px;
     background-color: #3882f6;
-    padding: 25px 60px;
+    padding: 35px 70px;
     justify-content: space-between;
     align-items: center;
     border-radius: 6px;
+    flex-wrap: wrap;
 }
 
 .actiontitle {
@@ -141,4 +142,12 @@ a , .sub {
 
 .signup {
     border: 0px;
+}
+
+.footer {
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #f9faf8;
+    text-align: center;
+    padding: 35px;
 }
