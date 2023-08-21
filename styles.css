@@ -103,9 +103,42 @@ a , .sub {
 
 .quote {
     font-size: 36px;
+    color: #1f2937;
 }
 
 .namequote {
     margin-left: auto;
     font-weight: bolder;
+}
+
+.actionbox {
+    display: flex;
+    margin: 50px 80px;
+    background-color: #3882f6;
+    padding: 25px 60px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.actiontitle {
+    font-size: 24px;
+    font-weight: bold;  
+}
+
+.actiontitle, .actionsub {
+    color: #f9faf8;
+}
+
+.signup, .signup2 {
+    padding: 6px 20px;
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    border-radius: 7px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.signup {
+    border: 0px;
 }
