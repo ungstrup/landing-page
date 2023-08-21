@@ -75,6 +75,7 @@ a , .sub {
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 
 .info {
@@ -91,4 +92,20 @@ a , .sub {
 .text {
     text-align: center;
     margin-top: 8px;
+}
+
+.quotebox {
+    background-color: #e5e7eb;
+    padding: 50px 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+}
+
+.namequote {
+    margin-left: auto;
+    font-weight: bolder;
 }
